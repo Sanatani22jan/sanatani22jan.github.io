@@ -25,7 +25,7 @@ function onCreate() {
         url = url.substring(0, url.length - 4);
         console.log(url);
         window.open(
-            "whatsapp://send?text=राम मंदिर बनने की खुशी में ये मैसेज 10 लोगो को शेयर कीजिये%0A" + encodeURIComponent(url), '_blank'
+            "whatsapp://send?text=राम मंदिर बनने की खुशी में ये मैसेज 10 लोगो को शेयर कीजिये%0A" + url, '_blank'
         );
     } else {
         const name = document.getElementById("input-name").value;
