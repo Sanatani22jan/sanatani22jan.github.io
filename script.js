@@ -35,7 +35,7 @@ function onCreate() {
             document.getElementById("name").innerHTML = name;
         }
         console.log(name);
-        window.open('https://vaibhav234k.github.io/Rammandir/index.html?name=' + name + "&n=1", '_self');
+        window.open('https://sanatani22jan.github.io//index.html?name=' + name + "&n=1", '_self');
     }
 }
 
